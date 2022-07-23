@@ -14,6 +14,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  box-sizing: border-box;
 }
 
 #background-video {
@@ -26,6 +27,7 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
+  min-height: 800px;
 }
 
 h1 {
@@ -66,7 +68,7 @@ p {
 
 .top-container {
   position: relative;
-  padding: 100px 0 100px;
+  padding: 12rem 0 6rem;
 }
 
 .middle-container {
@@ -86,6 +88,7 @@ p {
 .introp {
   width: 20%;
   margin: auto;
+  font-size: 1.25rem;
 }
 
 .pm-img {
